@@ -1,0 +1,29 @@
+.body {
+  background-image: url("./img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 570px;
+  overflow: hidden;
+}
+.x {
+  background-color: darkslategray;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.z {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: darkslategray;
+}
+.head {
+  background-color: black;
+}
+.jumbotron {
+  background-color: darkgray;
+}
