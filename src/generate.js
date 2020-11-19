@@ -34,10 +34,9 @@ const Generate = ()=>{
       <form>
         <label className="text-white text-center p-4">
           <h3>Enter The Info</h3>
-          <input className="form-control p-4  "  type="text" value={value} onChange={handleChange} />
+          <textarea className="form-control" style={{padding:"50px"}}  type="text" value={value} onChange={handleChange} />
         </label>
       </form>
-      <br></br>
       <QRCode
         id="123456"
         value={value}

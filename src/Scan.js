@@ -33,7 +33,8 @@ class Scan extends Component {
         />
          </div>
          {!this.state.result ? <h1 className="text-light">Welcome to Qr code Info Extractor</h1> :
-         <div className="col-6">
+         <div className="col-6" style={{textAlign:"start",fontWeight:"bold",fontSize:"25px"}}>
+           <h1 className="text-light">Welcome to Qr code Info Extractor</h1>
            <p> Qr Code Conatins :  {this.state.result}</p>
            <br></br>
            <br></br>
